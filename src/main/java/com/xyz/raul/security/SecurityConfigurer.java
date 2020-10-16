@@ -13,7 +13,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.xyz.raul.controller.JwtRequestFilter;
+import com.xyz.raul.filter.JwtRequestFilter;
 import com.xyz.raul.service.MyUserDetailsService;
 
 @EnableWebSecurity
